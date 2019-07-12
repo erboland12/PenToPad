@@ -1,14 +1,8 @@
-.homeMain{
-    background-color: #111;
-    padding: .5em;
-    
-}
-
 .home{
     background-color: whitesmoke;
     margin: 0;
     padding: 5em;
-    height:  1400px;
+    height:  1300px;
     border: 6px solid #222;
 }
 
@@ -16,8 +10,27 @@
     background-color: whitesmoke;
     text-align: center;
     border: 6px solid #333;
-    width: 1400px;
+    width: 900px;
     max-width: 107.5%;
     margin-top: -5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+.tableEntry{
+    margin: 2em;
+    float: left;
+    width: 345px;
+    height: 350px;
+    border: 12px solid #333;
+}
+.tableEntry2{
+    margin: 2em;
+    float: right;
+    width: 345px;
+    height: 350px;
+    border: 12px solid #333;
+}
+table{
+    margin-right: -5em;
+}
+

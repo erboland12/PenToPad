@@ -13,6 +13,8 @@ import { Home }                 from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { PublishComponent } from './publish/publish.component';
+import { PoemComponent } from './poem/poem.component';
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule.forRoot([
       {path: '', component: AppComponent},
       {path: 'home', component: Home},
-      {path: 'about', component: AboutComponent}
+      {path: 'about', component: AboutComponent},
+      {path: 'publish', component: PublishComponent}
     ])
   ],
 // #enddocregion routing-module
@@ -34,7 +37,9 @@ import { FooterComponent } from './footer/footer.component';
     Home,
     AboutComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    PublishComponent,
+    PoemComponent
     ],
   // #enddocregion dashboard
   providers: [],

@@ -1,8 +1,9 @@
-<div>
+<div class="horizontalDiv">
     <nav>
         <ul>
             <li><a [routerLink] = "['/']"> Home</a></li>
             <li><a [routerLink] = "['/about']"> About</a></li>
+            <li><a [routerLink] = "['/publish']"> Publish</a></li>
             <li class="search"><input type="text" placeholder="Search For Creators or Works.."></li>
         </ul>
     </nav>
@@ -10,9 +11,8 @@
 
 <div class="verticalDiv">
     <ul class="verticalMenu">
-        <li class="vertical"><a href="#home">Home</a></li>
-        <li class="vertical"><a href="#news">News</a></li>
-        <li class="vertical"><a href="#contact">Contact</a></li>
-        <li class="vertical"><a href="#about">About</a></li>
+        <li class="vertical"><a [routerLink] = "['/']"> Home</a></li>
+        <li class="vertical"><a [routerLink] = "['/about']"> About</a></li>
+        <li class="vertical"><a [routerLink] = "['/publish']"> Publish</a></li>
     </ul>
 </div>

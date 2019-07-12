@@ -3,16 +3,21 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #999;
   }
   
+  .horizontalDiv{
+    margin: 0;
+    border: 6px solid #222;
+    width: 1108px;
+  }
   li {
     float: left;
   }
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,12 +25,13 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #555;
+    
   }
   div{
     display: block;
     width: 100%;
-    background-color: #333;
+    background-color: #999;
     color: white;
     text-align: center;
   }
@@ -43,8 +49,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 150px;
-    background-color: #333;
+    background-color: #999;
     margin: 0.5em;
   }
 
@@ -52,7 +57,7 @@ ul {
     float: left;
     margin: 0;
     border: 6px solid #222;
-    width: 160px;
+    width: 130px;
     height: 1400px;
   }
 
