@@ -1,0 +1,18 @@
+.home{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 5em;
+    height:  1300px;
+    border: 6px solid #222;
+}
+
+.intro{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 0.7em;
+    border: 6px solid #333;
+    width: 1010px;
+    margin-top: -5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

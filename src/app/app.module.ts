@@ -15,6 +15,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { PublishComponent } from './publish/publish.component';
 import { PoemComponent } from './poem/poem.component';
+import { LyricsComponent } from './lyrics/lyrics.component';
 
 
 @NgModule({
@@ -26,7 +27,9 @@ import { PoemComponent } from './poem/poem.component';
       {path: '', component: AppComponent},
       {path: 'home', component: Home},
       {path: 'about', component: AboutComponent},
-      {path: 'publish', component: PublishComponent}
+      {path: 'publish', component: PublishComponent},
+      {path: 'poem', component: PoemComponent},
+      {path: 'lyrics', component: LyricsComponent}
     ])
   ],
 // #enddocregion routing-module
@@ -39,7 +42,8 @@ import { PoemComponent } from './poem/poem.component';
     NavComponent,
     FooterComponent,
     PublishComponent,
-    PoemComponent
+    PoemComponent,
+    LyricsComponent
     ],
   // #enddocregion dashboard
   providers: [],

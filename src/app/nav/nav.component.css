@@ -58,7 +58,9 @@ ul {
     margin: 0;
     border: 6px solid #222;
     width: 130px;
-    height: 1400px;
+    height: 1430px;
+    position: absolute;
+    top: 30;  
   }
 
   .vertical {

@@ -2,17 +2,23 @@
     <div class="intro">
         <h1>Choose What Kind of Work you Want to Publish</h1>
     </div>
-    <div>
+    <div class="table">
         <table>
             <tr>
                 <td>
-                    <div class="tableEntry">
-                    
+                    <div class="tableEntry" id="poem">
+                        <a [routerLink] = "['/poem']" >
+                            <img src="../../assets/images/poetryIcon.png">
+                            <a [routerLink] = "['/poem']" >Poem</a>
+                        </a>
                     </div>
                 </td>
                 <td>
                     <div class="tableEntry">
-                            
+                        <a [routerLink] = "['/lyrics']" >
+                            <img src="../../assets/images/lyricsIcon.png">
+                            <a [routerLink] = "['/lyrics']" >Lyrics</a>
+                        </a>    
                     </div>
                 </td>
             </tr>

@@ -10,12 +10,26 @@
     background-color: whitesmoke;
     text-align: center;
     border: 6px solid #333;
-    width: 900px;
-    max-width: 107.5%;
+    width: 1020px;
     margin-top: -5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+a{
+    margin-left: 2.7em;
+    color: black;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+a:hover{
+    color: #777;
+}
 .tableEntry{
     margin: 2em;
     float: left;
@@ -23,14 +37,7 @@
     height: 350px;
     border: 12px solid #333;
 }
-.tableEntry2{
-    margin: 2em;
-    float: right;
-    width: 345px;
-    height: 350px;
-    border: 12px solid #333;
-}
-table{
-    margin-right: -5em;
-}
 
+.table{
+    float: right;
+}
