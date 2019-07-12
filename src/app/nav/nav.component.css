@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  div{
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+
+  .search{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .verticalMenu {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #333;
+    margin: 0.5em;
+  }
+
+  .verticalDiv{
+    float: left;
+    margin: 0;
+    border: 6px solid #222;
+    width: 160px;
+    height: 1400px;
+  }
+
+  .vertical {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  

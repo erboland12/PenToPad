@@ -1,18 +1,45 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+// #docregion
+import { NgModule }       from '@angular/core';
+import { BrowserModule }  from '@angular/platform-browser';
+import { FormsModule }    from '@angular/forms';
+import { PostModule }     from './post/post.module'
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppComponent }         from './app.component';
+import { PostComponent }        from './post/post.component';
+import { RouterModule }         from '@angular/router';
+// #docregion routing-module
+import { AppRoutingModule }     from './app-routing.module';
+import { Home }                 from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path: '', component: AppComponent},
+      {path: 'home', component: Home},
+      {path: 'about', component: AboutComponent}
+    ])
   ],
+// #enddocregion routing-module
+  // #docregion dashboard
+  declarations: [
+    AppComponent,
+    PostComponent,
+    Home,
+    AboutComponent,
+    NavComponent,
+    FooterComponent
+    ],
+  // #enddocregion dashboard
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
+// #docregion routing-module
 })
 export class AppModule { }
+// #enddocregion routing-module
